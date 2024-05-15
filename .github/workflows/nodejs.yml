@@ -26,5 +26,5 @@ jobs:
 
     - name: Run Test API
       run: |
-        cd apps/expressBackend
+        cd apps/backend
         npm run test
