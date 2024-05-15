@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "database":"*",
+    "@types/jest": "^27.4.0",
     "@repo/typescript-config": "*",
     "@types/express": "^4.17.21",
     "nodemon": "^3.1.0"
