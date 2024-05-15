@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@repo/types": "*",
     "@repo/typescript-config": "*",
     "@types/express": "^4.17.21",
     "nodemon": "^3.1.0"
