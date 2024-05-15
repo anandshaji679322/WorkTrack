@@ -1,0 +1,25 @@
+{
+  "name": "expressbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "rimraf lib && tsc  && nodemon ./lib/src/server.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@repo/types": "*",
+    "@repo/typescript-config": "*",
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "database": "*",
+    "express": "^4.19.2",
+    "typescript": "^5.4.5"
+  }
+}
